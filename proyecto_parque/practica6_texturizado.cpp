@@ -149,7 +149,7 @@ int main()
 		shaderList[0].useShader();
 		uniformModel = shaderList[0].getModelLocation();
 		uniformProjection = shaderList[0].getProjectLocation();
-		uniformView = shaderList[0].getViewLocation();
+		//uniformView = shaderList[0].getViewLocation();
 		//ejercicio 1:
 		glm::mat4 model(1.0); 
 
